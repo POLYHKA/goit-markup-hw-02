@@ -1,0 +1,77 @@
+:root {
+    --main-light-color: #fff;
+    --main-dark-color: #212121;
+
+    --main-font-color: #757575;
+    --secondary-font-color: #000;
+    --accent-color: #2196f3;
+
+    --section-bg-color: #fff;
+    --section-bg-secondary-color:#F5F4FA;
+    --eection-bg-accent-color: #2f303a;
+
+    --btn-color:#F5F4FA;
+    --btn-active-color:#2196F3;
+}
+/*Global styles*/
+.body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-font-color);
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.section {
+    background-color: var(--main-light-color);
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--main-dark-color);
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+.logo,
+.list {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.accent {
+    color: var(--accent-color);
+}
+/*header*/
+.header {
+    background-color: var(--main-light-color);
+    border-bottom: 1px;
+}
+.logo {
+    font-family: 'Releway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+}
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+}
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    text-transform: capitalize;
+    list-style: none;
+}
